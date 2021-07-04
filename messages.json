@@ -1,0 +1,28 @@
+{
+    "messages":{
+        "SUCCESS":"Success",
+        "BAD_REQUEST": "Bad Request",
+        "NOT_FOUND":"Not found",
+        "VALIDATION_ERROR": "Validation Error",
+        "EVERYTHING_LOOKS_GOOD": "Everything looks good",
+        "SOMETHING_WENT_WRONG": "Oops!! Something went wrong",
+        "USER_NOT_FOUND":"No user found matching that email id or password",
+        "NO_TOKEN":"Please provide a token",
+        "TOKEN_EXPIRED":"Your session has expired, please login again",
+        "LOGGED_OUT":"Successfully logged out!",
+        "INVALID_TOKEN":"Invalid Token",
+        "USER_ALREADY_EXISTS":"User with that email or contact already exists",
+        "USER_CREATED":"User created successfully!"
+    },
+    "statusCode": {
+        "OK": 200,
+        "CREATED":201,
+        "MODIFIED":204,
+        "BAD_REQUEST": 400,
+        "UNAUTHORIZED":401,
+        "FORBIDDEN": 403,
+        "NOT_FOUND": 404,
+        "VALIDATION": 422,
+        "INTERNAL_SERVER": 500
+    }
+}
