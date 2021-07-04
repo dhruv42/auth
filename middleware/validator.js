@@ -10,7 +10,7 @@ const allSchemas = {
         country:Joi.string().trim().required(),
         password:Joi.number().integer().required().min(6),
         address:Joi.array()
-    }),
+    }).strict(),
     loginSchema : Joi.object().keys({
         email:Joi.string().email().required(),
         password:Joi.string().required().min(6)
