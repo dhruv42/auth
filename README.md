@@ -52,10 +52,6 @@ User login
 ```json
 POST /api/auth/login
 Content-Type: application/json
-Headers:{
-"authorization":"eyJhbGciOeeweiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2MGUxNTJkNjY5NmQ5ODYzNDM5MDlhZjkiLCJpYXQiOjE2MjUzODUwMzksImV4cCI6MTYyNTM4ODYzOX0.cqYOtpNpF96HuUCf8kGMOtgIcYCyeOK1SjStu4"
-}
-
 Body:{
     "email": "john@gmail.com",
     "password": "12345",
